@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+body{
+    background-color: rgb(43, 43, 43);
+}
+.navegation{
+    width: 1000px;
+    margin: 30px auto;
+    background-color: rgb(185, 30, 30);
+    border-radius: 7px;
+    text-align: center;
+}
+.navegation ul{
+    list-style: none;
+}
+.menu > li{
+   
+   display: inline-block;
+   padding: 15px 20px;
+   color: whitesmoke;
+   text-decoration: none;
+}
+.menu li a:hover{
+    color: rgb(44, 44, 44);
+    transition: all .3s;
+}
+.submenu{
+    position: absolute;
+    background-color: rgb(185, 30, 30);
+    display: none;
+    border-radius: 10px;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+#logo{
+    width: 70px;
+    height: 50px;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+    font-size: x-large;
+}
+.contact{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(185, 30, 30);
+}
+
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.part1{
+    padding: 30px;
+    height: auto;
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+    background-color: rgb(74, 74, 74);  
+    margin-bottom: 20px;
+}
+.part2{
+    padding: 30px;
+    height: auto;
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+    background-color: rgb(74, 74, 74);  
+    margin-bottom: 20px;
+}
+.part3{
+    padding: 30px;
+    height: auto;
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+    background-color: rgb(74, 74, 74);  
+    margin-bottom: 20px;
+}
+
+h2{
+    color: white;
+}
+p{
+    color: rgb(185, 30, 30);
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(185, 30, 30);
+    border-radius: 10px;
+    margin-top: 10px;
+}
